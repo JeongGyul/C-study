@@ -27,5 +27,14 @@
     <ClCompile Include="gets.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="char_process.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="num_sum.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sum_cycle.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
