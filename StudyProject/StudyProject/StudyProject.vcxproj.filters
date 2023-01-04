@@ -18,5 +18,14 @@
     <ClCompile Include="pointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="getchar.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="getch.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gets.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
