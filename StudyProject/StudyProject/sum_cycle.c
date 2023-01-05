@@ -6,7 +6,10 @@ int main(void)
 	scanf("%d", &num);
 
 	if (num < 10)
+	{
 		cycle = num * 10;
+		num = cycle;
+	}
 	else
 		cycle = num;
 
@@ -26,16 +29,16 @@ int main(void)
 			f_front /= 10;
 		}
 
-		while (f_back > 10)
+		while (f_back >= 10)
 			f_back -= 10;
 
-		cycle = f_front + f_back;
-		s_back = cycle;
-		while (s_back > 10)
-			f_back -= 10;
+		s_back = f_front + f_back;
+		while (s_back >= 10)
+			s_back -= 10;
 		cycle = (f_back * 10) + s_back;
 		count++;
-		printf("새로운 수: %d, 현재 사이클: %d", cycle, count);
+		//printf("f_front: %d, f_back: %d, s_back: %d\n", f_front, f_back, s_back);
+		//printf("새로운 수: %d, 현재 사이클: %d\n", cycle, count);
 	} while (cycle != num);
 	printf("%d", count);
 
